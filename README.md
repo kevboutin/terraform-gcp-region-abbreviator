@@ -36,13 +36,15 @@ Functional examples are included in the
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| additional\_regions | A user-supplied list of regions to extend the lookup map. | `list(string)` | `[]` | no |
 | region | The GCP region to retrieve a short name for (ex. `us-east1`). | `string` | `null` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| region\_short\_name | The three to four character shortname of the region specified in var.region. |
+| region\_short\_name | The four to five character shortname of the region specified in var.region. |
+| region\_short\_name\_map | The four to five character shortname of any given region. |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
