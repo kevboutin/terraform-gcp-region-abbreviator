@@ -21,6 +21,7 @@ locals {
     "europe-west6",
     "europe-west8",
     "europe-west9",
+    "europe-west12",
     "northamerica-northeast1",
     "northamerica-northeast2",
     "southamerica-east1",
